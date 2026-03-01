@@ -1,0 +1,67 @@
+# Requirements
+
+## Project Summary
+**Resume**: A single-web page application that serves as a knowledge base for new **M**ining **S**oftware **R**epositories researchers.
+
+## Stakeholders
+- New PhD students joining the MSR research group.
+- MSR researchers.
+
+## Scope
+
+- Single-page web application
+- Simple html structure and styling
+- Four categories:
+    1. Data Sources
+    2. Collection Methods
+    3. Analysis Methods
+    4. Publication Venues
+- Tab switching
+- Each tab displays structured content
+
+## Functional Requirements
+
+- The page must have a navigation area with four tabs
+    1. Data Sources:
+        - source name
+        - what kind of data it provides
+        - brief description
+    2. Collection Methods:
+        - method name
+        - what it's used for
+        - pros and cons
+    3. Analysis Methods
+        - method name
+        - type of analysis
+        - common use cases
+    4. Publication Venues
+        - vanue name and abbreviation
+        - type (conference or journal)
+        - focus area
+        - how relevant to MSR (high, medium)
+- The page must show one section/tab content at a time.
+- Clicking a tab must update the visible content to the selected category.
+- The page must clearly indicate the currently selected tab.
+
+## Non-Functional Requirements
+
+- The page must look clean and be readable.
+- It must look professional but simple with no fancy animations.
+- It must be compatible on all modern browsers.
+- It must respond inmediately when switching tabs without reloading.
+- The buttons/tabs must appear at the top.
+- Table or list format.
+
+## User Stories
+
+1. **As a new PhD student**, I want to see available data sources and what data they provide, so I can decide what repositories to mine.
+
+2. **As a new PhD student**, I want to see common collection and analysis methods with pros/cons, so I can choose a practical way to gather data.
+
+3. **As a new PhD student**, I want to know different platforms where I can publish my work.
+
+3. **As a researcher**, I want to view analysis methods and typical use cases, so I can select methods appropriate to my study.
+
+4. **As a researcher**, I want to compare publication venues and their relevance to MSR, so I can target an appropriate conference or journal.
+
+5. **As a user**, I want the webpage to use simple tabs and show only one section at a time, so the content is not overwhelming.
