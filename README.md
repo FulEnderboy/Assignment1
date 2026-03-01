@@ -10,7 +10,7 @@ A simple single-page web application that serves as a knowledge base for Mining 
 
 ## Repository Structure
 - `/docs/requirements.md` — requirements + user stories
-- `/public` — HTML/CSS/JS implementation
+- `/src` — HTML/CSS/JS implementation
 - `/tests` — automated tests + manual display and resolution test
 - `/.github/workflows/ci.yml` — CI pipeline
 

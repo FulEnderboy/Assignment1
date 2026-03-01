@@ -3,7 +3,7 @@ const path = require("path");
 const { JSDOM } = require("jsdom");
 
 function loadPage() {
-    const htmlPath = path.join(__dirname, "../public/index.html");
+    const htmlPath = path.join(__dirname, "../src/index.html");
     const html = fs.readFileSync(htmlPath, "utf-8");
 
     const dom = new JSDOM(html, {
