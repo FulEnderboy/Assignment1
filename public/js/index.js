@@ -25,17 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const PublicationVenuesSection = document.getElementById("PublicationVenues");
 
     DataSourceButton.addEventListener('click', () => {
-        showSection(DataSourceSection, DataSourceButton);
+        showSection(DataSourceSection);
     });
     CollectionMethodsButton.addEventListener('click', () => {
-        showSection(CollectionMethodsSection, CollectionMethodsButton);
+        showSection(CollectionMethodsSection);
     });
     AnalysisMethodsButton.addEventListener('click', () => {
-        showSection(AnalysisMethodsSection, AnalysisMethodsButton);
+        showSection(AnalysisMethodsSection);
     });
     PublicationVenuesButton.addEventListener('click', () => {
-        showSection(PublicationVenuesSection, PublicationVenuesButton);
+        showSection(PublicationVenuesSection);
     });
 
-    showSection(DataSourceSection, DataSourceButton);
+    showSection(DataSourceSection);
 });
