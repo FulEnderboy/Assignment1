@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #5e4caf;
+    --secondary-color: #f44336;
+    --background-color: #1a0734;
+    --text-color: #DADBDD;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav > button {
+    flex: 1;
+    height: 4em;
+    min-width: 8em;
+    font-size: 1em;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: solid 1px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav > button:hover {
+    background-color: rgb(from var(--secondary-color) r g b / 0.2);
+    color: var(--text-color);
+}
+
+nav > button.active {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+section {
+    margin: 2em;
+}
+
+section > h1 {
+    color: var(--secondary-color);
+}
+
+section > p {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul:first-child {
+    margin: 0.5em 0;
+}
